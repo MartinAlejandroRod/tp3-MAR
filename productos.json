@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Aire Acondicinado",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_760023-MLA40007585180_122019-P.webp",
+    "descripcion": "Aire Acondicinado Frio/Calor",
+    "precio": 50000
+  },
+  {
+    "nombre": "Bicicleta",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_966646-MLA52248035361_112022-P.webp",
+    "descripcion": "Mountain Bike R29",
+    "precio": 100000
+  },
+  {
+    "nombre": "TV",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_686221-MLA51543966938_092022-P.webp",
+    "descripcion": "TV 55 UHD 4K",
+    "precio": 73000
+  },
+  {
+    "nombre": "Telefono",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_890555-MLA50912449037_072022-P.webp",
+    "descripcion": "Telefono - Samsung",
+    "precio": 65000
+  },
+  {
+    "nombre": "Licuadora",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_791854-MLA45158798057_032021-P.webp",
+    "descripcion": "Licuadora - Liliana",
+    "precio": 23000
+  },
+  {
+    "nombre": "Monitor",
+    "url_foto": "https://http2.mlstatic.com/D_Q_NP_796587-MLA46165231779_052021-P.webp",
+    "descripcion": "Monitor - Samsung LED - 20",
+    "precio": 83000
+  }
+]

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Martin Alejandro Rodriguez">
+  <meta name="descripction" content="TP FINAL - MUSIMUNDO">
+  <title>TP FINAL - MUSIMUNDO</title>
+
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <link rel="iconopag" type="icono" href="./img/LOGO VTT.PNG">
+  <script src="https://kit.fontawesome.com/c7384fcffa.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+  }
+
+  h3 {
+    color: rgb(0, 0, 0);
+  }
+
+  li {
+    color: white;
+  }
+
+  p {
+    color: rgb(255, 255, 255);
+    font-size: small
+  }
+
+  /*estilos*/
+
+  @import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Ubuntu:wght@300&display=swap");
+
+  html {
+    font-family: "Tiro Devanagari Sanskrit", serif;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(0, 62, 143);
+  }
+
+  body {
+    background-image: url(./img/musss.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0px;
+  }
+
+  a {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: black;
+    color: rgb(255, 9, 9);
+  }
+
+  span.separator {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /*main*/
+
+  main {
+    display: grid;
+    grid-template-areas:
+      "productos productos carro carro"
+  }
+
+  /*seccion PRODUCTOS*/
+
+  #productos {
+    text-decoration: rgba(1, 4, 6, 0.472);
+    background-image: url("./img/musss.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    grid-area: productos;
+    min-height: 170vh;
+
+    text-align: center;
+    background-color: rgba(221, 216, 216, 0.493);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*seccion CARRO*/
+
+  #carro {
+    padding: 20px;
+    background-color: rgba(212, 19, 19, 0.637);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    grid-area: carro;
+    min-height: 150vh;
+    width: 105mm;
+  }
+
+  /*footer*/
+  footer {
+    background-color: rgba(48, 6, 6, 0.327);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div {
+    display: inline-block;
+  }
+</style>
+
+<body>
+  <main>
+    <!--Comentarios de seccion 2(Productos)-->
+    <button id="caro">Ver Producto Mas Caro</button>
+    <section id="productos">
+      <div class="productos"></div>
+    </section>
+
+    <!--Comentarios de seccion 3(Carro)-->
+
+    <section id="carro">
+      <div class="carrito"></div>
+      <table>
+        <thead>
+          <h2>
+            <h2>
+              <center><img src="./img/mus2.png" width="290"></center>
+              <center><img src="./img/CHANG 2.png" width="100"></center>
+              <th>Nombre</th>
+            </h2>
+            <th>Precio</th>
+            <th></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          </h2>
+
+        </tbody>
+      </table>
+
+      <div>
+        <h2>
+          <h2>TOTAL</h2>
+          <p id="total"></p>
+          <h2>CARRITO</h2>
+          <p id="contador"></p>
+      </div>
+      </h2>
+      </div>
+
+  </main>
+
+  <footer>
+    <span>Trabajo Practico FINAL</span>
+    <span class="sep">/</span>
+    <img src="./img/mus2.png" alt="INSTAGRAM" height="30">
+    <a href="https://www.instagram.com/musimundo/">¡SEGUINOS EN INSTAGRAM!</a>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
